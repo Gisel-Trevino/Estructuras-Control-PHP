@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:not([type="hidden"]) {
+    border: none;
+    border-bottom: 2px solid #474A8A;
+    background: transparent;
+    padding: 0.5rem 0;
+    outline: none;
+}
+
+input:not([type="hidden"]):focus {
+    border-bottom-color: #787CB5;
+}
